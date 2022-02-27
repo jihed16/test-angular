@@ -1,0 +1,58 @@
+<div class="screen">
+
+	<div class="puzzle">
+		<div class="jigsaw">
+			<div class="jigsaw1">
+
+				<span class="b"></span>
+				<span class="r"></span>
+			</div>
+
+
+			<div class="jigsaw2">
+
+				<span class="l"></span>
+				<span class="b"></span>
+
+
+			</div>
+		</div>
+		<div class="jigsaww">
+			<div class="jigsaw3">
+				<span class="t"></span>
+
+
+				<span class="r"></span>
+
+			</div>
+
+			<div class="jigsaw4">
+				<span class="t"></span>
+				<span class="l"></span>
+
+			</div>
+		</div>
+	</div>
+
+<form novalidate (ngSubmit)="saveData(profilForm)" #profilForm="ngForm">
+	<h1>Compléter votre profil</h1>
+	
+		<label>Entrez votre nom</label>
+		<br>
+		<input type="text" class="form-control" placeholder="Nom"
+		 [(ngModel)]="user.lastName" name="lastName" required
+		#lastNameVar="ngModel"
+		[ngClass]="{'is-invalid': lastNameVar.touched && !lastNameVar.valid }">
+		<div class="invalid-feedback">
+		<span *ngIf="lastNameVar.errors">
+ 
+		</span>
+		</div>
+		Entrez votre prénom
+		<br>
+		<input type="text" placeholder="Prénom" [(ngModel)]="user.firstName" name="firstName">
+		<button class="btn1" type="submit" routerLink="/contact">
+			Suivant</button>
+
+	</form>
+</div>

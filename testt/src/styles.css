@@ -1,0 +1,131 @@
+/* You can add global styles to this file, and also import other style files */
+/*@import '-bootstrap/dist/css/bootstrap.min.css';*/
+
+
+
+body{
+    background-color: #BDC3C7;
+}
+.jigsaw, .jigsaww{
+    display:flex;
+ }
+ .jigsaw1, .jigsaw2, .jigsaw3, .jigsaw4 {
+     width: 12em;
+     height: 12em;
+     
+     position: relative;
+  
+     
+     cursor: pointer;
+   }
+   
+   .jigsaw1,
+   .jigsaw1 span {
+    background-color: #0284cf; 
+   }
+   
+   .jigsaw2,
+   .jigsaw2 span {
+    background-color:  #17A589; 
+   }
+   
+   .jigsaw3,
+   .jigsaw3 span {
+    background-color: #FF5733; 
+   }
+   .jigsaw4,
+   .jigsaw4 span {
+    background-color: #F3FF33; 
+   }
+   .jigsaw3 .t, .jigsaw4 .t {
+    width: 4em;
+     height: 4em;
+     position: absolute;
+     top: -3em;
+     left: 4.3em;
+     -webkit-border-radius: 4em;
+     -moz-border-radius: 4em;
+    
+   }
+   
+   .jigsaw1 .r, .jigsaw2 .r, .jigsaw3 .r, .jigsaw4 .r {
+    width: 4em;
+     height: 4em;
+     position: absolute;
+     top: 2em;
+     left: 5.5em;
+     -webkit-border-radius: 4em;
+     -moz-border-radius: 4em;
+     border-radius: 4em;
+   }
+   
+   .jigsaw1 .b, .jigsaw2 .b, .jigsaw3 .b, .jigsaw4 .b { 
+    width: 4em;
+     height: 4em;
+     position: absolute;
+     top: 9em;
+     left: 4.4em;
+     -webkit-border-radius: 4em;
+     -moz-border-radius: 4em;
+     border-radius: 4em;
+     background-color: #fff;
+   }
+   
+   .jigsaw1 .l, .jigsaw3 .l, .jigsaw4 .l { 
+    width: 4em;
+     height: 4em;
+     position: absolute;
+     top: 4.4em;
+     left: -.8em;
+     -webkit-border-radius: 8em;
+     -moz-border-radius: 8em;
+     border-radius: 8em;
+     background-color: #fff;
+   }
+  .jigsaw2 .l { 
+    width: 4em;
+     height: 4em;
+     position: absolute;
+     top: 4.4em;
+     left: -.8em;
+     -webkit-border-radius: 8em;
+     -moz-border-radius: 8em;
+     border-radius: 8em;
+     background-color: #0284cf;
+   }
+ .jigsaw4 .l { 
+    width: 4em;
+     height: 4em;
+     position: absolute;
+     top: 4.4em;
+     left: -.8em;
+     -webkit-border-radius: 8em;
+     -moz-border-radius: 8em;
+     border-radius: 8em;
+     background-color: #FF5733; 
+   }
+ 
+ .screen {
+     margin-top:120px;
+     margin-left:120px;
+  background-image: url("https://i.ibb.co/dkHwWBG/pexels-ihsan-aditya-1056251.jpg");
+   background-repeat: no-repeat;
+  
+   width: 24em;
+  
+     height: 24em;
+    position: relative;
+    display:flex;
+  }
+ 
+ .title{
+    
+     margin: 60px;
+ }
+ form{
+   margin-left: 100px;
+   
+ }
+ .btn1{
+   margin-top:50px;
+ }
